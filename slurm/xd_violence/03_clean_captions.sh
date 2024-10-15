@@ -7,7 +7,7 @@
 #SBATCH --output=output/03_clean_captions_xd_violence_%A_%a.out
 
 # Set the XD-Violence directory
-xd_violence_dir="/path/to/directory/xd_violence/"
+xd_violence_dir="$HOME/datasets/xd_violence/"
 
 # Set paths
 root_path="${xd_violence_dir}/frames"

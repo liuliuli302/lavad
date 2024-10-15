@@ -7,7 +7,7 @@
 #SBATCH --output=output/07_eval_ucf_crime_%A_%a.out
 
 # Set the UCF Crime directory
-ucf_crime_dir="/path/to/directory/ucf_crime/"
+ucf_crime_dir="$HOME/datasets/ucf_crime/"
 
 # Set paths
 root_path="${ucf_crime_dir}/frames"

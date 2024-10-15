@@ -10,7 +10,7 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export CUDA_VISIBLE_DEVICES=0,1
 
 # Set the XD-Violence directory
-xd_violence_dir="/path/to/directory/xd_violence/"
+xd_violence_dir="$HOME/datasets/xd_violence/"
 
 # Set paths
 root_path="${xd_violence_dir}/frames"

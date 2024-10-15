@@ -10,7 +10,7 @@ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
 export CUDA_VISIBLE_DEVICES=0,1
 
 # Set the UCF Crime directory
-ucf_crime_dir="/path/to/directory/ucf_crime/"
+ucf_crime_dir="$HOME/datasets/ucf_crime/"
 
 # Set paths
 root_path="${ucf_crime_dir}/frames"
